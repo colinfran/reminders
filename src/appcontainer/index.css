@@ -1,0 +1,37 @@
+.appContainer{
+
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.textBoxWidth{
+  width: 50%
+}
+
+.topBtn{
+  position: absolute !important;
+  z-index: 1;
+  top: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto !important;
+}
+
+@media screen and (max-width: 767px) and (min-width: 601px) {
+  .topBtn{
+    top: 35px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .topBtn{
+    top: 26px;
+  }
+}
